@@ -1,7 +1,9 @@
+// External imports
 import Chart from "react-apexcharts";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 export default function Datachart() {
+    // Setup chart data
     const chartInfo = {
         options: {
             chart: {

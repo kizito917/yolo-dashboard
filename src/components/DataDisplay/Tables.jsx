@@ -171,6 +171,7 @@ export default function CustomPaginationActionsTable({rows, editUrl, viewUrl, co
         )
     }
 
+    // Render Loader while api fetches data
     if ((!rows || rows.length === 0) && dataLoading) {
         return (
             <div className="border border-whitesmoke-500 shadow-xl p-7 w-default text-center mt-24">

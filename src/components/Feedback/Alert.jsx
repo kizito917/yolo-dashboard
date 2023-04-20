@@ -1,3 +1,4 @@
+// External imports
 import Alert from '@mui/material/Alert';
 
 const Notifier = ({ severity, message }) => {
@@ -6,6 +7,6 @@ const Notifier = ({ severity, message }) => {
         {message}
       </Alert>
     );
-  };
+};
   
-  export default Notifier;
+export default Notifier;
