@@ -1,0 +1,38 @@
+/* Appbar component styling */
+.selected {
+    background: White;
+}
+.hideSideBar {
+    display: none !important;
+}
+.topProfileArea {
+    margin-left: 92%;
+}
+
+@media only screen and (max-width: 800px) {
+    .hideSideBar {
+        display: block !important;
+    }
+
+    .topProfileArea {
+        margin-left: 0%;
+    }
+}
+
+
+/* Layout component styling */
+.page-content {
+    background: whitesmoke;
+    height: 100vh;
+}
+.main-container {
+    margin-left: 230px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main-container {
+        width: 96% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
